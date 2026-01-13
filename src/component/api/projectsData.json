@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Project",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe explicabo provident aspernatur.",
+    "tech": "HTML5, CSS3, JavaScript",
+    "image": "public/Screenshot 2025-09-01 113345.png",
+    "previewLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "id": 2,
+    "title": "MERN Stack Vehicle Rental System",
+    "description": "A full-stack vehicle rental system where users can browse vehicles, select rental dates, calculate total cost, and make bookings. Includes user authentication, vehicle management, and booking history.",
+    "tech": "MongoDB, Express.js, React, Node.js",
+    "image": "Screenshot 2025-12-24 150123.png",
+    "previewLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "id": 3,
+    "title": "MERN Stack Doctor Appointment System",
+    "description": "A doctor appointment booking application that allows users to schedule appointments, manage patient details, and view appointment history. Designed with a clean UI and secure backend APIs.",
+    "tech": "MongoDB, Express.js, React, Node.js",
+    "image": "Screenshot 2025-12-24 150003.png",
+    "previewLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "id": 4,
+    "title": "Responsive Website",
+    "description": "A fully responsive website built using modern HTML, CSS, and JavaScript. Focused on clean layout, smooth navigation, and mobile-first design principles.",
+    "tech": "HTML5, CSS3, JavaScript",
+    "image": "Screenshot 2025-12-24 150214.png",
+    "previewLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "id": 5,
+    "title": "Interactive Web Application",
+    "description": "An interactive frontend website developed with HTML, CSS, and JavaScript featuring dynamic UI components, animations, and user-friendly interactions.",
+    "tech": "HTML5, CSS3, JavaScript",
+    "image": "Screenshot 2025-12-24 150313.png",
+    "previewLink": "#",
+    "githubLink": "#"
+  },
+  {
+    "id": 6,
+    "title": "Frontend Project",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe explicabo provident aspernatur.",
+    "tech": "HTML5, CSS3, JavaScript",
+    "image": "refrence/Start Project Responsive 3D Personal Portfolio Website/Start Project Responsive 3D Personal Portfolio Website/images/work6.jpg",
+    "previewLink": "#",
+    "githubLink": "#"
+  }
+]
