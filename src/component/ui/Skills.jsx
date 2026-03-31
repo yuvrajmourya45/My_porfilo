@@ -1,127 +1,83 @@
 import React from 'react'
+import {
+  FaReact, FaHtml5, FaCss3Alt, FaJs, FaBootstrap,
+  FaNodeJs, FaJava, FaGitAlt, FaGithub, FaDocker
+} from 'react-icons/fa'
+import {
+  SiTailwindcss, SiExpress, SiMongodb, SiMysql,
+  SiPostman, SiFigma, SiVscodium
+} from 'react-icons/si'
+
+const skillCategories = [
+  {
+    title: 'Frontend',
+    skills: [
+      { name: 'React',       icon: <FaReact />,      level: 'Advanced' },
+      { name: 'HTML5',       icon: <FaHtml5 />,      level: 'Expert'   },
+      { name: 'CSS3',        icon: <FaCss3Alt />,    level: 'Advanced' },
+      { name: 'JavaScript',  icon: <FaJs />,         level: 'Advanced' },
+      { name: 'Tailwind',    icon: <SiTailwindcss />,level: 'Advanced' },
+      { name: 'Bootstrap',   icon: <FaBootstrap />,  level: 'Advanced' },
+    ]
+  },
+  {
+    title: 'Backend',
+    skills: [
+      { name: 'Node.js',  icon: <FaNodeJs />,   level: 'Advanced'     },
+      { name: 'Express',  icon: <SiExpress />,  level: 'Advanced'     },
+      { name: 'Java',     icon: <FaJava />,     level: 'Intermediate' },
+    ]
+  },
+  {
+    title: 'Database',
+    skills: [
+      { name: 'MongoDB', icon: <SiMongodb />, level: 'Advanced'     },
+      { name: 'MySQL',   icon: <SiMysql />,   level: 'Advanced'     },
+    ]
+  },
+  {
+    title: 'Tools',
+    skills: [
+      { name: 'Git',     icon: <FaGitAlt />,   level: 'Expert'       },
+      { name: 'GitHub',  icon: <FaGithub />,   level: 'Expert'       },
+      { name: 'VS Code', icon: <SiVscodium />, level: 'Expert'       },
+      { name: 'Postman', icon: <SiPostman />,  level: 'Intermediate' },
+      { name: 'Docker',  icon: <FaDocker />,   level: 'Beginner'     },
+      { name: 'Figma',   icon: <SiFigma />,    level: 'Intermediate' },
+    ]
+  }
+]
 
 export default function Skills() {
+  const topCategories = skillCategories.slice(0, 1)       // Frontend
+  const midCategories = skillCategories.slice(1, 3)       // Backend + Database
+  const bottomCategories = skillCategories.slice(3)       // Tools
+
+  const renderCategory = (cat) => (
+    <div className="skill-category" key={cat.title}>
+      <h3 className="skill-category-title">{cat.title}</h3>
+      <div className="skill-cards-grid">
+        {cat.skills.map((skill) => (
+          <div className="skill-card" key={skill.name}>
+            <div className="skill-icon">{skill.icon}</div>
+            <p className="skill-name">{skill.name}</p>
+            <span className={`skill-level level-${skill.level.toLowerCase()}`}>{skill.level}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+
   return (
     <section id='skills' className="skills">
       <div className="skills-section container">
-
         <h2 className='heading'>My <span>Skills</span></h2>
-        <div className="skills-row">
-          <div className="skills-col">
-            <div className="skills-box">
-              <h3>Frontend Development</h3>
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>React <span>85%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>HTML <span>90%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>CSS <span>80%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Tailwind <span>80%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>JavaScript <span>70%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Bootstrap <span>75%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-              </div>
-            </div>
+        <div className="skills-categories">
+          {topCategories.map(renderCategory)}
+          <div className="skills-row-pair">
+            {midCategories.map(renderCategory)}
           </div>
-
-          <div className="skills-col">
-            <div className="skills-box">
-              <h3>Development Tools</h3>
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>VS Code <span>95%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Git <span>90%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>GitHub <span>85%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Postman <span>50%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Docker <span>40%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-                <div className="progress">
-                  <h3>Figma <span>50%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="skills-col">
-            <div className="skills-box">
-              <h3>Backend Development</h3>
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>Node.js <span>85%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Express <span>80%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>Java <span>80%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="skills-col">
-            <div className="skills-box">
-              <h3>Database Management</h3>
-              <div className="skills-content">
-                <div className="progress">
-                  <h3>MongoDB <span>70%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-
-                <div className="progress">
-                  <h3>SQL <span>80%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-                <div className="progress">
-                  <h3>Google Sheets <span>50%</span></h3>
-                  <div className="bar"><span></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {bottomCategories.map(renderCategory)}
         </div>
       </div>
     </section>

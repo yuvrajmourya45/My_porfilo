@@ -8,7 +8,7 @@ export default function Footer() {
         
         {/* Footer Text */}
         <div className="footer-text">
-          <p>Copyright &copy; 2025 by Ajay Meena | All Rights Reserved.</p>
+          <p>Copyright &copy; 2025 by Yuvraj Singh Mourya | All Rights Reserved.</p>
         </div>
 
         {/* Social Links */}
