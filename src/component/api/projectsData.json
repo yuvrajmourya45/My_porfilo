@@ -48,15 +48,5 @@
     "image": "interactive-web.png",
     "previewLink": "#",
     "githubLink": "#"
-  },
-  {
-    "id": 6,
-    "title": "My Portfolio Website",
-    "description": "A personal portfolio website built with React and Vite. Features smooth animations, responsive design, project showcase, skills section, and contact form.",
-    "tech": "HTML5, CSS3, React, Vite",
-    "category": "Frontend",
-    "image": "portfolio-preview.png",
-    "previewLink": "https://myporfilo.vercel.app/",
-    "githubLink": "https://github.com/yuvrajmourya45/My_porfilo"
   }
 ]
