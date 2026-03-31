@@ -15,7 +15,7 @@
     "description": "A full-stack vehicle rental system where users can browse vehicles, select rental dates, calculate total cost, and make bookings. Includes user authentication, vehicle management, and booking history.",
     "tech": "MongoDB, Express.js, React, Node.js",
     "category": "Full Stack",
-    "image": "Screenshot 2025-12-24 150123.png",
+    "image": "vehicle-rental.png",
     "previewLink": "#",
     "githubLink": "#"
   },
@@ -25,7 +25,7 @@
     "description": "A doctor appointment booking application that allows users to schedule appointments, manage patient details, and view appointment history. Designed with a clean UI and secure backend APIs.",
     "tech": "MongoDB, Express.js, React, Node.js",
     "category": "Full Stack",
-    "image": "Screenshot 2025-12-24 150003.png",
+    "image": "doctor-appointment.png",
     "previewLink": "#",
     "githubLink": "#"
   },
@@ -35,7 +35,7 @@
     "description": "A fully responsive website built using modern HTML, CSS, and JavaScript. Focused on clean layout, smooth navigation, and mobile-first design principles.",
     "tech": "HTML5, CSS3, JavaScript",
     "category": "Frontend",
-    "image": "Screenshot 2025-12-24 150214.png",
+    "image": "responsive-website.png",
     "previewLink": "#",
     "githubLink": "#"
   },
@@ -45,7 +45,7 @@
     "description": "An interactive frontend website developed with HTML, CSS, and JavaScript featuring dynamic UI components, animations, and user-friendly interactions.",
     "tech": "HTML5, CSS3, JavaScript",
     "category": "Frontend",
-    "image": "Screenshot 2025-12-24 150313.png",
+    "image": "interactive-web.png",
     "previewLink": "#",
     "githubLink": "#"
   },
