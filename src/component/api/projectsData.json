@@ -51,12 +51,12 @@
   },
   {
     "id": 6,
-    "title": "Frontend Project",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe explicabo provident aspernatur.",
-    "tech": "HTML5, CSS3, JavaScript",
+    "title": "My Portfolio Website",
+    "description": "A personal portfolio website built with React and Vite. Features smooth animations, responsive design, project showcase, skills section, and contact form.",
+    "tech": "HTML5, CSS3, React, Vite",
     "category": "Frontend",
-    "image": "refrence/Start Project Responsive 3D Personal Portfolio Website/Start Project Responsive 3D Personal Portfolio Website/images/work6.jpg",
+    "image": "image.png",
     "previewLink": "#",
-    "githubLink": "#"
+    "githubLink": "https://github.com/yuvrajmourya45/My_porfilo"
   }
 ]
