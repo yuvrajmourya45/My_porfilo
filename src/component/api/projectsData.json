@@ -16,8 +16,8 @@
     "tech": "MongoDB, Express.js, React, Node.js",
     "category": "Full Stack",
     "image": "vehicle-rental.png",
-    "previewLink": "#",
-    "githubLink": "#"
+    "previewLink": "https://vehicle-rental-system-project.vercel.app/",
+    "githubLink": "https://github.com/yuvrajmourya45/Vehicle_Rental_System_Project"
   },
   {
     "id": 3,
@@ -26,8 +26,8 @@
     "tech": "MongoDB, Express.js, React, Node.js",
     "category": "Full Stack",
     "image": "doctor-appointment.png",
-    "previewLink": "#",
-    "githubLink": "#"
+    "previewLink": "https://docter-appoinment-systemmain.vercel.app/",
+    "githubLink": "https://github.com/yuvrajmourya45/DocterAppoinmentSystemmain"
   },
   {
     "id": 4,
@@ -36,8 +36,8 @@
     "tech": "HTML5, CSS3, JavaScript",
     "category": "Frontend",
     "image": "responsive-website.png",
-    "previewLink": "#",
-    "githubLink": "#"
+    "previewLink": "https://website-six-ivory-32.vercel.app/",
+    "githubLink": "https://github.com/yuvrajmourya45/website"
   },
   {
     "id": 5,
@@ -46,7 +46,7 @@
     "tech": "HTML5, CSS3, JavaScript",
     "category": "Frontend",
     "image": "interactive-web.png",
-    "previewLink": "#",
-    "githubLink": "#"
+    "previewLink": "https://website2-pi-wheat.vercel.app/",
+    "githubLink": "https://github.com/yuvrajmourya45/website2"
   }
 ]
