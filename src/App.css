@@ -502,20 +502,20 @@ span {
   background: var(--second-bg-color);
 }
 
-.skills-categories {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-.skills-row-pair {
+.skills-grid-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
 }
 
-@media (max-width: 768px) {
-  .skills-row-pair {
+@media (max-width: 992px) {
+  .skills-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-grid-3 {
     grid-template-columns: 1fr;
   }
 }

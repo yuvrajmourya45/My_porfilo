@@ -49,10 +49,6 @@ const skillCategories = [
 ]
 
 export default function Skills() {
-  const topCategories = skillCategories.slice(0, 1)       // Frontend
-  const midCategories = skillCategories.slice(1, 3)       // Backend + Database
-  const bottomCategories = skillCategories.slice(3)       // Tools
-
   const renderCategory = (cat) => (
     <div className="skill-category" key={cat.title}>
       <h3 className="skill-category-title">{cat.title}</h3>
@@ -72,12 +68,8 @@ export default function Skills() {
     <section id='skills' className="skills">
       <div className="skills-section container">
         <h2 className='heading'>My <span>Skills</span></h2>
-        <div className="skills-categories">
-          {topCategories.map(renderCategory)}
-          <div className="skills-row-pair">
-            {midCategories.map(renderCategory)}
-          </div>
-          {bottomCategories.map(renderCategory)}
+        <div className="skills-grid-3">
+          {skillCategories.map(renderCategory)}
         </div>
       </div>
     </section>
