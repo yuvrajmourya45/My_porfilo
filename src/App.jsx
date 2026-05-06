@@ -5,6 +5,7 @@ import { Header } from './component/layout/Header'
 import About from './component/ui/About';
 import Projects from './component/ui/Projects';
 import Skills from './component/ui/Skills';
+import Certifications from './component/ui/Certifications';
 import Contact from './component/ui/Contact';
 import Footer from './component/layout/Footer';
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Certifications/>
       <Contact/>
       <Footer/>
     </>
