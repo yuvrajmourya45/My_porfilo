@@ -29,13 +29,6 @@ const skillCategories = [
     ]
   },
   {
-    title: 'Database',
-    skills: [
-      { name: 'MongoDB', icon: <SiMongodb />, level: 'Advanced'     },
-      { name: 'MySQL',   icon: <SiMysql />,   level: 'Advanced'     },
-    ]
-  },
-  {
     title: 'Tools',
     skills: [
       { name: 'Git',     icon: <FaGitAlt />,   level: 'Expert'       },
@@ -44,6 +37,13 @@ const skillCategories = [
       { name: 'Postman', icon: <SiPostman />,  level: 'Intermediate' },
       { name: 'Docker',  icon: <FaDocker />,   level: 'Beginner'     },
       { name: 'Figma',   icon: <SiFigma />,    level: 'Intermediate' },
+    ]
+  },
+  {
+    title: 'Database',
+    skills: [
+      { name: 'MongoDB', icon: <SiMongodb />, level: 'Advanced'     },
+      { name: 'MySQL',   icon: <SiMysql />,   level: 'Advanced'     },
     ]
   }
 ]
